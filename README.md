@@ -3,7 +3,7 @@
 ## Setup 
 
 In order to render and preview the site you will need a few things to get started. 
-1) You will need to install python and pip
+1) You will need to install python3.7 (not 2.x or 3.8) and pip
 2) After python is installed, you'll need the following python dependencies:
 `pip install mkdocs`
 `pip install mkdocs-material`

@@ -15,11 +15,12 @@ theme:
   name: 'material'
   logo: 'assets/logo_edgex.png'
   favicon: 'assets/logo_edgex.png'
+  custom_dir: 'theme'
   feature:
     tabs: true
-  palette:
-    primary: 'deep purple'
-    accent: 'red'
+  # palette:
+  #   primary: 'deep purple'
+  #   accent: 'red'
 nav:
   - 'index.md'
   - Getting Started:
@@ -125,5 +126,7 @@ extra:
       link: 'https://www.linkedin.com/company/edgexfoundry'
 extra_css:
 - assets\stylesheets\version-select.css
+- assets\stylesheets\logo.css
+
 extra_javascript:
 - assets\javascripts\version-select.js
